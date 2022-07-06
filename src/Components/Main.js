@@ -11,7 +11,6 @@ const Main = () => {
   const [prevUrl, setPrevUrl] = useState();
   const [pokedex, setPokedex] = useState();
 
-  //   console.log("SUPERMAN", pokeData);
   const pokeFun = () => {
     setLoading(true);
     axios
