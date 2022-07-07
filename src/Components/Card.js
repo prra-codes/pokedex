@@ -4,7 +4,7 @@ import charmander from "../images/charmander.png";
 const Card = ({ pokemon, loading, infoPokemon }) => {
   console.log("PO-KE-MON!", pokemon);
 
-  //   show each pokemon in every card with map method
+  //   shows each pokemon in every card with map method
   return (
     <>
       {loading ? (
